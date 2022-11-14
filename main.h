@@ -10,5 +10,6 @@
 #include <sys/stat.h>
 
 void prompt();
+int _execve(char **argv);
 
 #endif
