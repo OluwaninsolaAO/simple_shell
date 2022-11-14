@@ -9,4 +9,6 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
+void prompt();
+
 #endif
