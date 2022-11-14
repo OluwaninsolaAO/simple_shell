@@ -7,7 +7,7 @@
  */
 int _execve(char **argv)
 {
-	char *argv[] = {"/bin/ls", "-l", "/tmp", NULL};
+	/* char *argv[] = {"/bin/ls", "-l", "/tmp", NULL}; */
 	pid_t pid;
 	int n, status;
 
