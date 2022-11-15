@@ -24,4 +24,7 @@ int prompt(void);
 int _execve(char **argv);
 int uninteractive_execve(int argc, char **argv);
 
+int _putchar(char c);
+void _printf(char *string);
+
 #endif
