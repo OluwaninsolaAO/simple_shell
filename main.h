@@ -9,4 +9,19 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
+
+
+
+
+
+
+
+
+
+
+
+int prompt(void);
+int _execve(char **argv);
+int uninteractive_execve(int argc, char **argv);
+
 #endif
