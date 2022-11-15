@@ -11,11 +11,23 @@
 int main(int argc __attribute__ ((unused)), char **argv __attribute__ ((unused)), char **env __attribute__ ((unused)))
 {
 
+
+
+
+
+
+
+
+
+
+
 	if (argc == 1)
 	{
-		prompt();
+		return (prompt());
 	}
-
-	return (0);
+	else
+	{
+		return (uninteractive_execve(argc, argv));
+	}
 }
 

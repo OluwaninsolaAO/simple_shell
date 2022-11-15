@@ -4,10 +4,11 @@
  * prompt - prints system prompt on primary output.
  * Return: 0 on success..
  */
-void prompt()
+int prompt(void)
 {
 	char *prompt_style = "$ ";
 	int n = 0;
+
 	size_t chars __attribute__ ((unused));
 	char *buffer = NULL;
 	size_t bufsize = 0;
@@ -21,4 +22,6 @@ void prompt()
 	chars = getline(&buffer, &bufsize, stdin); /*execve buffer and takes exit clause into account*/
 
 	prompt();
+
+	return (0);
 }

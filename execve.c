@@ -9,7 +9,7 @@ int _execve(char **argv)
 {
 	/* char *argv[] = {"/bin/ls", "-l", "/tmp", NULL}; */
 	pid_t pid;
-	int n, status;
+	int status;
 
 	pid = fork();
 	if (pid == -1)
