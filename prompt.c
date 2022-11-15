@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * prompt - prints system prompt on primary output
- * Return: 0 on success.
+ * prompt - prints system prompt on primary output.
+ * Return: 0 on success..
  */
 void prompt()
 {
