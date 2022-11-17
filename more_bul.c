@@ -38,7 +38,7 @@ int history_dis(__attribute__((unused))char **c, __attribute__((unused))int s)
 /**
  * print_echo - Excute Normal Echo
  * @cmd: Parsed Command
- * Return: 0 Succes -1 Fail
+ * Return: 0 Succes -1 Fail.
  */
 int print_echo(char **cmd)
 {
