@@ -4,7 +4,7 @@
  * @argv:Program Name
  * @c:Error Count
  * @cmd:Command
- * Return: Void
+ * Return: Void.
  */
 void _prerror(char **argv, int c, char **cmd)
 {
